@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>COMMIT CRIME</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        <script>
+            function Button() {
+                let x = document.body.scrollWidth;
+                let y = document.body.scrollHeight;
+                document.getElementById("button").innerHTML = `<button onClick="noButton()" style="width:${x}px;height:${y}px;position:absolute;top:0;left:0">CLICK HERE TO COMMIT CRIME</button>`;
+            }
+
+            function noButton() {
+                let audio = document.getElementById("audio");
+                document.getElementById("button").innerHTML = `<div></div>`;
+                audio.play();
+            }
+        </script>
+    </head>
+    <body onload="Button()">
+        <div>
+            <h1>COMMIT CRIME</h1>
+        </div>
+        <div>
+            <h2>WHAT MAKES SOMEONE A CRIMINAL?</h2>
+        </div>
+        <div id="cock">
+            <p>GETTING COCK</p>
+        </div>
+        <div align="center">
+            <audio id="audio" controls autoplay loop>
+                <source src="media/mike wazowski scream (ear rape).mp3" type="audio/mpeg">
+                Your browser does not support the <code>audio</code> tag.
+            </audio>
+        </div>
+        <div id="imagediv">
+            <img id="robberto" class="images" src="images/burglar-clipart-rob-3.png" alt=""/>
+            <img id="cursed" class="images" src="images/tenor (2).gif" width="900" alt=""/>
+            <img id="bored" class="images" src="images/animated-criminal-image-0028.gif" width="450" alt=""/>
+        </div>
+        <div id="button">
+        </div>
+    </body>
+</html>

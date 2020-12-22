@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+h1
+{
+    text-align: center;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h2
+{
+    text-align: center;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#cock
+{
+    text-align: center;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 200px;
+}
+
+.images
+{
+    display: inline-block;
+}
+
+audio
+{
+    margin: 0 auto;
+    display: none;
+}
+
+button
+{
+    background: black;
+    border: none;
+    color: red;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 100px;
+}
+
+button:focus
+{
+    border: none;
+}
