@@ -1,4 +1,10 @@
 body {
-    background-color: #000000;
-    color: #00FF00;
+    background-color: #202020;
+    color: #FA9913;
+    font-family: monospace;
+}
+
+.headingcontent {
+    margin-top: 5px;
+    text-align: center;
 }
